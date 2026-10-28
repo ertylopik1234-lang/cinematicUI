@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "cinematicui",
+  "version": "${version}",
+  "name": "cinematicUI",
+  "description": "Cinematic camera sway and smooth fade-in animations for Minecraft screens.",
+  "authors": ["cinematicUI"],
+  "environment": "client",
+  "entrypoints": { "client": ["com.cinematicui.CinematicUI"] },
+  "mixins": ["cinematicui.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

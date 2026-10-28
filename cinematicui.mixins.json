@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.cinematicui.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["GameRendererMixin", "ScreenMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
